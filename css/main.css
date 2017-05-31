@@ -1,0 +1,136 @@
+.main-container {
+	display: flex;
+	font-family: 'Open Sans', sans-serif;
+	background: #f3f3f3;
+}
+
+.side-nav {
+	background: #1C344C;
+	height: 100vh;
+	font-weight: 400;
+}
+
+.side-nav ul {
+	color: #f3f3f3;
+}
+
+.side-nav-top {
+	width: 300px;
+	padding: 20px;
+}
+
+.side-nav li {
+	margin-bottom: 10px;
+}
+
+.side-nav svg {
+	height: 18px;
+	margin-right: 10px;
+}
+
+.side-nav svg path {
+	fill: #91C46C;
+}
+
+.side-nav-bottom {
+	background: #287D7D;
+	position: absolute;
+	bottom: 0;
+	width: 300px;
+	padding: 20px;
+}
+
+.side-nav-bottom ul li ul li {
+	margin-left: 33px;
+}
+
+.icon-left {
+	float: right;
+}
+
+.main-content {
+	width: 100%;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul { 
+	display: flex;
+}
+
+.left-nav li {
+	margin: 15px;
+}
+
+.right-nav li {
+	margin: 15px 20px 0 0;
+}
+
+header,
+.mini-nav {
+	background: white;
+}
+
+.mini-nav {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+
+.mini-nav ul {
+	display: flex;
+}
+
+.mini-nav ul li {
+	margin-left: 15px;
+}
+
+.up-arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+  margin-right: 20px;
+}
+
+.down-arrow {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+  margin-left: 10px;
+  vertical-align: super;
+  display: inline-block;
+}
+
+.product-nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.tresamigos {
+	display: flex;
+}
+
+.tresamigos li {
+	margin-left: 10px;
+}
+
+.product-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.product {
+	width: 100px;
+	height: 100px;
+	background: black;
+	margin: 20px;
+}
